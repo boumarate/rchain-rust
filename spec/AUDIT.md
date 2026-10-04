@@ -382,3 +382,8 @@ that it is empty is the fact, and it is said rather than shown as a table with n
 | `TS4` | reject negative cost (`map_err`); `PCost.cost` is a `uint64`, so a negative (over-charged) cost is an accounting anomaly | — | §2 |
 | `TS11` | `checked_sub` returning `Err` on a too-small max size | — | §2 |
 
+
+
+## Example Usage
+
+Resolved parameter handling for issue #242.
